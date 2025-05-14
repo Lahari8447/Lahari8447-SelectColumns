@@ -7,6 +7,9 @@ When you write your SQL statement, you should write it below the provided instru
 ```sql
 -- sample comments
 -- TODO: write a sql statement below
+SELECT firstname AS First_Name, lastname AS Last_Name
+FROM Person;
+
 select * from table;
 ```
 with `select * from table` representing your answer in the lab.sql file.
